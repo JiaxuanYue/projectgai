@@ -1,0 +1,219 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/bkg_white">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:layout_margin="30dp">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp">
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Category: "
+                    android:textSize="30dp"
+                    android:textColor="@color/indigo"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Romantic"
+                    android:layout_weight="5"
+                    android:textSize="30dp"
+                    android:textColor="@color/indigo"
+                    android:id="@+id/tv_category_dvdinfo"
+                    />
+
+            </LinearLayout>>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="2"
+        android:background="@drawable/button_shape_indigo"
+        style="@style/font_white">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_gravity="bottom">
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textColor="#fafafa"
+                    android:layout_height="wrap_content"
+                    android:text="Name:          "
+                    android:textSize="20dp"
+                    android:layout_gravity="center_vertical" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textColor="#fafafa"
+                    android:layout_height="wrap_content"
+                    android:text="Titanic"
+                    android:textSize="20dp"
+                    android:id="@+id/tv_name_dvdinfo"
+                    android:layout_gravity="center_vertical" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fafafa"
+                    android:textSize="20dp"
+                    android:text="Quantity:      "
+                    android:layout_gravity="center_vertical" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fafafa"
+                    android:textSize="20dp"
+                    android:text="1"
+                    android:id="@+id/tv_quantity_dvdinfo"
+                    android:layout_gravity="center_vertical" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fafafa"
+                    android:textSize="20dp"
+                    android:text="Quality:         "
+                    android:layout_gravity="center_vertical" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fafafa"
+                    android:textSize="20dp"
+                    android:text="Good"
+                    android:id="@+id/tv_quality_dvdinfo"
+                    android:layout_gravity="center_vertical" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textColor="#fafafa"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="Sharable:      "
+                    android:layout_gravity="center_vertical" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textColor="#fafafa"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="YES"
+                    android:id="@+id/tv_sharable_dvdinfo"
+                    android:layout_gravity="center_vertical" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_weight="0.7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Comments:"
+                    android:textSize="20dp"
+                    android:textColor="#fafafa"
+                    android:id="@+id/tv_comment_dvdinfo"
+                    android:layout_gravity="center_vertical" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_margin="10dp"
+                    android:textColor="#fafafa"
+                    android:text="This is a romantic movie. You don't wanna miss it!"
+                    android:id="@+id/tv_comment_view_dvdinfo"
+                    android:layout_gravity="right" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="match_parent"
+        android:layout_weight="4">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show photo gallery"
+            android:id="@+id/btn_show_gallery"
+            android:textColor="#fafafa"
+            android:textSize="24dp"
+            android:layout_margin="20dp"
+            android:onClick="startGallery"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_shape_indigo"/>
+    </LinearLayout>
+</LinearLayout>

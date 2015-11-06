@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zhaorui.dvdcollector" >
+
+    <uses-feature android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application
+        android:name=".Model.ContextUtil"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".View.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".View.BaseActivity"
+            android:label="@string/title_activity_base" >
+        </activity>
+        <activity
+            android:name=".View.MyInventoryActivity"
+            android:label="@string/title_activity_my_invent" >
+        </activity>
+        <activity
+            android:name=".View.DVDInfoActivity"
+            android:label="@string/title_activity_dvdinfo" >
+        </activity>
+        <activity
+            android:name=".View.FriendListActivity"
+            android:label="@string/title_activity_friend_list" >
+        </activity>
+        <activity
+            android:name=".View.FriendProfileActivity"
+            android:label="@string/title_activity_friend_profile" >
+        </activity>
+        <activity
+            android:name=".View.FriendInventoryActivity"
+            android:label="@string/title_activity_friend_invent" >
+        </activity>
+        <activity
+            android:name=".View.TradeCenterActivity"
+            android:label="@string/title_activity_trade_center" >
+        </activity>
+        <activity
+            android:name=".View.StartTradeActivity"
+            android:label="@string/title_activity_start_trade" >
+        </activity>
+        <activity
+            android:name=".View.TradeDetailActivity"
+            android:label="@string/title_activity_trade_detail" >
+        </activity>
+        <activity
+            android:name=".View.IncomeTradeActivity"
+            android:label="@string/title_activity_income_trade" >
+        </activity>
+        <activity
+            android:name=".View.IncomeTradeDetailActivity"
+            android:label="@string/title_activity_income_trade_detail" >
+        </activity>
+        <activity
+            android:name=".View.DVDAddActivity"
+            android:label="@string/title_activity_dvdadd" >
+        </activity>
+        <activity
+            android:name=".View.CategoryActivity"
+            android:label="@string/title_activity_romantic_dvd" >
+        </activity>
+        <activity
+            android:name=".View.BrowseInventActivity"
+            android:label="@string/title_activity_browse_invent" >
+        </activity>
+        <activity
+            android:name=".View.AllTradesActivity"
+            android:label="@string/title_activity_all_trades" >
+        </activity>
+        <activity
+            android:name=".View.ConfigActivity"
+            android:label="@string/title_activity_config" >
+        </activity>
+        <activity
+            android:name=".View.MyProfileActivity"
+            android:label="@string/title_activity_my_profile" >
+        </activity>
+        <activity
+            android:name=".View.SwitchDownloadActivity"
+            android:label="@string/title_activity_switch_download" >
+        </activity>
+        <activity
+            android:name=".View.PhotoActivity"
+            android:label="@string/title_activity_photo" >
+        </activity>
+        <activity
+            android:name=".View.DisplayPhotoActivity"
+            android:label="@string/title_activity_photo_display" >
+        </activity>
+
+    </application>
+
+</manifest>
